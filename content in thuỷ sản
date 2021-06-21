@@ -1,0 +1,819 @@
+<!DOCTYPE html> <!---content 1-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thuysan1</title>
+  <div class="text-center">
+    <img src="img/header.jpg" class="img-fluid " alt="mdo">
+    <div class="col-md-4">
+      <div class="card-body">
+        <h5 class="card-title">BÁO NÔNG NGHIỆP</h5>
+      </div>
+    </div>
+  </div>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ENEWS</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body>
+  <header class="p-3 mb-3 border-bottom">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="index.html" class="nav-link px-2 link-secondary">Trang chủ</a></li>
+          <li><a href="#" class="nav-link px-2 link-dark">Inventory</a></li>
+          <li><a href="#" class="nav-link px-2 link-dark">Customers</a></li>
+          <li><a href="#" class="nav-link px-2 link-dark">Products</a></li>
+        </ul>
+
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+
+        <div class="dropdown text-end">
+          <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-person-circle"></i>
+          </a>
+          <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+            <li><a class="dropdown-item" href="login.html">Sign in</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="signin.html">registration</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container-fluid mt-3">
+    <div class="row">
+      <div class="col-3">
+        <div class="card shadow">
+          <h4 class="card-header">
+            Categories
+          </h4>
+          <div class="list-group list-group-flush">
+            <a href="nongsan.html" class="list-group-item list-group-item-action " aria-current="true">
+              Nông sản
+            </a>
+            <a href="thuysan.html" class="list-group-item list-group-item-action active">
+              Thuỷ sản
+            </a>
+            <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">A
+              disabled link
+              item</a>
+          </div>
+        </div>
+        <div class="card mt-3 shadow">
+          <h4 class="card-header">
+            Tag
+           </h4>
+          <div class="list-group list-group-flush">
+            <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+              Trái cây
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">Rau củ</a>
+            <a href="#" class="list-group-item list-group-item-action">Chăn nuôi</a>
+            <a href="#" class="list-group-item list-group-item-action">Đánh bắt</a>
+            <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">A
+              disabled link
+              item</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+          <div class="card mb-3" style="max-width: 560px;">
+            <div class="card-body">
+              <h5 class="fs-1 card-title">
+                Phòng chống nắng nóng cho thủy sản
+              </h5>
+              <p class="fs-6 fw-light card-text">
+                <small class="text-muted">
+                  10/06/2021
+                </small>
+              </p>
+              <p class="fw-bold card-text">
+                Những tuần vừa qua, nền nhiệt trên địa bàn tỉnh Lào Cai nhiều ngày ở mức cao khiến nhiệt độ nước trong các ao, hồ, đầm nuôi thủy sản cũng tăng theo. 
+              </p>
+              <p class="card-text">
+                Đồng thời mưa gió bất thường khiến môi trường thay đổi đột ngột, thủy sản bị sốc và nhiễm bệnh làm giảm năng suất, sản lượng nuôi.
+
+Trước diễn biến thời tiết nắng nóng có nguy cơ kéo dài, Sở NN-PTNT Lào Cai đã có văn bản đề nghị UBND các huyện, thành phố, các cơ quan chuyên môn khẩn trương triển khai hướng dẫn, đôn đốc người dân thực hiện các biện pháp kỹ thuật phòng, chống nắng nóng cho động vật thủy sản.
+              </p>
+            </div>
+            <img src="img/mostview1.jpg" class="card-img-bottom" alt="mdo">
+            <div class="card-body">
+              <p class="card-text">
+                Cụ thển đối với nuôi trồng thủy sản nước ấm (rô phi đơn tính, chép, trắm…), các cơ sở sản xuất giống thủy sản cần bố trí ao nuôi có điều kiện tốt nhất, bổ sung nước đảm bảo số lượng, chất lượng nước phù hợp với sinh trưởng, phát triển của cá bố, mẹ. Tăng cường công tác phòng bệnh vào thời điểm nắng nóng, mở nhật ký theo dõi diễn biến thời tiết, sức khỏe của cá, môi trường ao nuôi (oxy, pH, nhiệt độ...), để có biện pháp xử lý kịp thời khi có sự cố xảy ra.
+
+Đối với nuôi cá trong ao hồ, cần thả bèo tây (bèo lục bình) hoặc làm dàn mướp, bầu, bí trên mặt ao chiếm khoảng 1/3 diện tích ao nuôi để làm chỗ trú cho cá, đồng thời duy trì mực nước trong ao trong suốt mùa hè 1,5 - 2m.
+Với nuôi cá lồng, bè trên hồ thủy lợi, thủy điện, phải thường xuyên vệ sinh lồng sạch sẽ, đảm bảo nước luôn được lưu thông trong và ngoài lồng, duy trì mức nước 2,5 - 3m, di chuyển lồng về nới râm mát, kín gió. Nếu không di chuyển được, cần hạ thấp lưới lồng xuống để đảm bảo nhiệt độ cho cá sinh trưởng và phát triển. Dùng vôi bột cho vào túi vải treo ở các góc lồng nuôi để phòng bệnh cho cá.
+
+Đối với nuôi trồng thủy sản nước lạnh (cá hồi, cá tầm…), cần tu sửa lại các hệ thống bể ấp, bể ương, tránh tình trạng rõ rỉ nước, duy trì mức nước trong bể từ 1,5 - 2m, điểu chỉnh các van cấp nước hợp lý vì trong thời điểm nắng nóng thường xảy ra hiện trượng thiếu nước. Không nên nhập trứng cá hồi, cá tầm về ấp nở trong thời giai này, đồng thời cần ưu tiên nguồn nước cho quá trình ương giống.
+
+Về chăm sóc và quản lý môi trường: Thường xuyên theo dõi kiểm tra sức khỏe của cá, tính toán mật độ nuôi phù hợp với điều kiện thực tế, khuyến khích dùng các chế phẩm sinh học để xử lý môi trường ao nuôi. Định kỳ 10 - 15 ngày bón vôi bột, liều lượng 1 - 2 kg/100m3 , tăng cường sử dụng máy sục khí vào 05 giờ, 23 giờ, mỗi lần chạy máy từ 01 - 03 giờ tùy thuộc vào sức khỏe của động vật thủy sản.
+
+Cho cá ăn từ 3 lần/ngày vào 06 giờ, 18 giờ, 22 giờ đối với cá tầm, cho ăn 2 lần/ngày vào sáng sớm và chiều mát đối với cá hồi, các loài cá truyền thống. Sử dụng các loại thức ăn đảm bảo chất lượng, không bị nấm mốc, ôi, thiu.
+
+Điều chỉnh lượng thức ăn theo diễn biến thời tiết, tránh dư thừa thức ăn gây ô nhiễm môi trường; giảm khẩu phần cho ăn xuống từ 40 - 50% hoặc ngừng hẳn vào những ngày nắng nóng có nhiệt độ nước trên 35 độ C. Không nên đánh bắt, vận chuyển vào thời điểm nắng nóng.
+              </p>
+            </div>
+          </div>
+      </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html> <!---content 2-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thuysan1</title>
+  <div class="text-center">
+    <img src="img/header.jpg" class="img-fluid " alt="mdo">
+    <div class="col-md-4">
+      <div class="card-body">
+        <h5 class="card-title">BÁO NÔNG NGHIỆP</h5>
+      </div>
+    </div>
+  </div>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ENEWS</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body>
+  <header class="p-3 mb-3 border-bottom">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="index.html" class="nav-link px-2 link-secondary">Trang chủ</a></li>
+          <li><a href="#" class="nav-link px-2 link-dark">Inventory</a></li>
+          <li><a href="#" class="nav-link px-2 link-dark">Customers</a></li>
+          <li><a href="#" class="nav-link px-2 link-dark">Products</a></li>
+        </ul>
+
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+
+        <div class="dropdown text-end">
+          <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-person-circle"></i>
+          </a>
+          <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+            <li><a class="dropdown-item" href="login.html">Sign in</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="signin.html">registration</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container-fluid mt-3">
+    <div class="row">
+      <div class="col-3">
+        <div class="card shadow">
+          <h4 class="card-header">
+            Categories
+          </h4>
+          <div class="list-group list-group-flush">
+            <a href="nongsan.html" class="list-group-item list-group-item-action " aria-current="true">
+              Nông sản
+            </a>
+            <a href="thuysan.html" class="list-group-item list-group-item-action active">
+              Thuỷ sản
+            </a>
+            <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">A
+              disabled link
+              item</a>
+          </div>
+        </div>
+        <div class="card mt-3 shadow">
+          <h4 class="card-header">
+            Tag
+           </h4>
+          <div class="list-group list-group-flush">
+            <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+              Trái cây
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">Rau củ</a>
+            <a href="#" class="list-group-item list-group-item-action">Chăn nuôi</a>
+            <a href="#" class="list-group-item list-group-item-action">Đánh bắt</a>
+            <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">A
+              disabled link
+              item</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+          <div class="card mb-3" style="max-width: 560px;">
+            <div class="card-body">
+              <h5 class="fs-1 card-title">
+                Môi trường bị ô nhiễm, người nuôi tôm Quảng Nam thiệt hại nặng
+              </h5>
+              <p class="fs-6 fw-light card-text">
+                <small class="text-muted">
+                  12/06/2021
+                </small>
+              </p>
+              <p class="fw-bold card-text">
+                Người dân ít chú trọng đến việc xử lý nước thải nuôi tôm là nguyên nhân dẫn đến việc ô nhiễm cho môi trường nuôi cũng như môi trường xung quanh.
+              </p>
+              <p class="card-text">
+                Quảng Nam nằm ở vùng ven biển miền Trung có nhiều lợi thế để phát triển nghề nuôi trồng thủy sản. Có không ít hộ gia đình ở các huyện ven biển vươn lên khấm khá từ nghề này. Tính đến nay, diện tích nuôi trồng thủy sản hàng năm của toàn tỉnh khoảng 3.000ha.
+
+                Mỗi năm, sản lượng thủy sản từ nuôi trồng của tỉnh Quảng Nam đạt từ 22.000 - 25.000 tấn. Trong đó sản lượng tôm chiếm chủ yếu (từ 15.000-16.000 tấn). Giá trị hàng năm nuôi trồng thủy sản đạt từ 1.600 – 1.800 tỷ đồng, tạo việc làm cho trên 8.000 lao động.
+              </p>
+            </div>
+            <img src="img/mostview2.jpg" class="card-img-bottom" alt="mdo">
+            <div class="card-body">
+              <p class="card-text">
+                Tuy nhiên, những năm trở lại đây, việc ồ ạt phát triển diện tích nuôi nhưng không chú trọng đến vấn đề vệ sinh môi trường đã khiến cho nhiều ao nuôi tôm chết hàng loạt. Các chủ hộ thiệt hại từ vài trăm đến cả tỷ đồng tiền đầu tư.
+
+                Vụ tôm đầu năm 2021, nhiều hộ gia đình nuôi tôm ở huyện Duy Xuyên, Thăng Bình, Núi Thành và TP Tam Kỳ vô cùng lo lắng khi chứng kiến tôm nuôi của gia đình mình có hiện tượng chết hàng loạt. Theo thống kê của Chi cục Thủy sản Quảng Nam, đến nay, diện tích ao hồ có tôm nuôi bị chết đã lên đến 83ha.
+                
+                Đặc biệt, tại huyện Núi Thành có 30ha tôm bị các bệnh đốm trắng, hoại tử gan tụy cấp. Còn tại xã Tam Phú (TP Tam Kỳ) cũng có đến hàng chục ao nuôi có tôm chết chủ yếu bị bệnh hồng thân.
+                
+                Anh Nguyễn Văn Hoàng, xã An Phú, TP Tam Kỳ cho biết, vụ này, gia đình anh nuôi 6 ao tôm thẻ chân trắng với diện tích khoảng 7.000m2. Tuy nhiên, khoảng 2 tháng trước, toàn bộ số tôm nuôi đều mắc bệnh hồng thân và chết sạch khiến gia đình thiệt hại khoảng 100 triệu đồng.
+              </p>
+            </div>
+            <img src="img/thuysanwriter2.jpg" class="card-img-bottom" alt="mdo">
+            <div class="card-body">
+                <p class="card-text">
+                    “Tôi nuôi tôm cũng đã hơn 20 năm rồi. Những năm trước tôm ít khi bị bệnh. Thế nhưng, vài năm trở lại đây, càng nhiều người đến khu vực này đào ao nuôi tôm khiến nguồn nước càng ngày càng bị ô nhiễm và bắt đầu xuất hiện các loại bệnh. Trong đó, vụ hè tôm chủ yếu bị bệnh hồng thân. Đến vụ đông thì các loại bệnh thường gặp là bệnh gan và đường ruột”, anh Hoàng nói.
+
+Tôm bị bệnh, chết do ô nhiễm môi trường đang là thực trạng thường xuyên xảy ra nhiều năm qua ở tỉnh Quảng Nam. Đại diện Chi cục Thủy sản tỉnh này cho biết, hàng năm, trên địa bàn có trên 100ha tôm bị chết liên quan đến vấn đề môi trường, làm thiệt hại của người dân từ 10 - 20 tỷ đồng.
+                </p>
+            </div>
+          </div>
+      </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html> <!---content 3--->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thuysan1</title>
+  <div class="text-center">
+    <img src="img/header.jpg" class="img-fluid " alt="mdo">
+    <div class="col-md-4">
+      <div class="card-body">
+        <h5 class="card-title">BÁO NÔNG NGHIỆP</h5>
+      </div>
+    </div>
+  </div>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ENEWS</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body>
+  <header class="p-3 mb-3 border-bottom">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="index.html" class="nav-link px-2 link-secondary">Trang chủ</a></li>
+          <li><a href="#" class="nav-link px-2 link-dark">Inventory</a></li>
+          <li><a href="#" class="nav-link px-2 link-dark">Customers</a></li>
+          <li><a href="#" class="nav-link px-2 link-dark">Products</a></li>
+        </ul>
+
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+
+        <div class="dropdown text-end">
+          <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-person-circle"></i>
+          </a>
+          <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+            <li><a class="dropdown-item" href="login.html">Sign in</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="signin.html">registration</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container-fluid mt-3">
+    <div class="row">
+      <div class="col-3">
+        <div class="card shadow">
+          <h4 class="card-header">
+            Categories
+          </h4>
+          <div class="list-group list-group-flush">
+            <a href="nongsan.html" class="list-group-item list-group-item-action " aria-current="true">
+              Nông sản
+            </a>
+            <a href="thuysan.html" class="list-group-item list-group-item-action active">
+              Thuỷ sản
+            </a>
+            <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">A
+              disabled link
+              item</a>
+          </div>
+        </div>
+        <div class="card mt-3 shadow">
+          <h4 class="card-header">
+            Tag
+           </h4>
+          <div class="list-group list-group-flush">
+            <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+              Trái cây
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">Rau củ</a>
+            <a href="#" class="list-group-item list-group-item-action">Chăn nuôi</a>
+            <a href="#" class="list-group-item list-group-item-action">Đánh bắt</a>
+            <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">A
+              disabled link
+              item</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+          <div class="card mb-3" style="max-width: 560px;">
+            <div class="card-body">
+              <h5 class="fs-1 card-title">
+                Nuôi tôm ít dịch bệnh nhờ ý thức bảo vệ môi trường
+              </h5>
+              <p class="fs-6 fw-light card-text">
+                <small class="text-muted">
+                  10/06/2021
+                </small>
+              </p>
+              <p class="fw-bold card-text">
+                Những năm qua, nhờ ý thức bảo vệ môi trường vùng nước nuôi của những hộ nuôi tôm ở Bình Định được nâng cao nên đã hạn chế dịch bệnh.
+              </p>
+              <p class="card-text">
+                Theo Chi cục Thủy sản Bình Định, tính đến tháng 5/2021, diện tích nuôi trồng thuỷ sản trên địa bàn toàn tỉnh đạt khoảng gần 3.363ha. Trong đó, diện tích nuôi thủy sản nước ngọt là 1.500ha, diện tích nuôi thủy sản nước lợ là gần 1.863ha.
+              </p>
+            </div>
+            <img src="img/mostview3.jpg" class="card-img-bottom" alt="mdo">
+            <div class="card-body">
+              <p class="card-text">
+                Theo Chi cục Thủy sản Bình Định, tính đến tháng 5/2021, diện tích nuôi trồng thuỷ sản trên địa bàn toàn tỉnh đạt khoảng gần 3.363ha. Trong đó, diện tích nuôi thủy sản nước ngọt là 1.500ha, diện tích nuôi thủy sản nước lợ là gần 1.863ha.Riêng diện tích nuôi tôm nước lợ tập trung tại huyện Tuy Phước với hơn 958ha, huyện Phù Mỹ 439ha, huyện Phù Cát 246ha, TX Hoài Nhơn 132ha và TP Quy Nhơn 87,7 ha. Trong đó, diện tích nuôi tôm thâm canh và bán thâm canh là hơn 492ha; nuôi theo phương thức quảng canh cải tiến là gần 1.371ha, chiếm 88% trong tổng diện tích mặt nước nuôi tôm nước lợ.
+
+                Hiện nay, người nuôi tôm ở Bình Định đang thu hoạch tôm nuôi vụ 1, giá tôm thương phẩm có xu hướng giảm, chỉ khoảng 80.000 - 85.000đ đồng/kg (tôm loại 100 con/kg). Trong khi những tháng cuối năm 2020 giá tôm thương phẩm ở Bình Định có giá đến 120.000đ/kg (tôm loại 100 con/kg). Tính đến nay, diện tích nuôi tôm nước lợ ở Bình Định chỉ có 0,61ha bị dịch bệnh, chiếm 0,1% diện tích thả nuôi; trong đó, có 0,23ha bị bệnh đốm trắng ở huyện Phù Mỹ và 0,38ha bị bệnh môi trường ở TX Hoài Nhơn.
+                
+                Theo ông Phạm Thanh Nhân, Trưởng phòng Nuôi trồng Thủy sản thuộc Chi cục Thủy sản Bình Định, trong 3 năm gần đây, ý thức bảo vệ môi trường vùng nước nuôi của những hộ nuôi tôm nước lợ ở Bình Định đã được nâng cao. Nhờ đó, dịch bệnh trên tôm đã được hạn chế rất nhiều.
+                
+                “Đối với 492ha diện tích nuôi tôm theo phương thức thâm canh và bán thâm canh, bà con đều bố trí ao lắng, ao nuôi và ao xả thải riêng biệt. Do đó, nước thải trong hoạt động nuôi tôm trước khi xả ra môi trường đã được xử lý an toàn. Riêng gần 1.371ha diện tích nuôi tôm theo phương thức quảng canh cải tiến tuy không bố trí ao lắng, ao xả thải, nhưng nhờ bà con tuân thủ mật độ nuôi theo khuyến cáo của ngành chức năng và nuôi tôm xen với cua, cá nên nước thải ít ảnh hưởng đến đến môi trường.                    
+              </p>
+            </div>
+            <img src="img/thuysanwriter3.jpg" class="card-img-bottom" alt="mdo">
+            <div class="card-body">
+                <p class="card-tex">
+                    Thêm vào đó, nhiều vùng nuôi tôm trên địa bàn tỉnh đã xây dựng mô hình nuôi tôm cộng đồng, các hộ nuôi tôm đều tuân thủ lịch thời vụ, mật độ thả nuôi, phương thức nuôi đã góp phần cải thiện môi trường vùng nước nuôi. Ví như khi xả thải là cả vùng xả đồng loạt, đưa nước vào ao nuôi cũng được thực hiện đồng loạt, nên tránh được chuyện người này xả thải người kia lấy nước vào ao nuôi khiến phát sinh dịch bệnh ”, ông Nhân chia sẻ.
+                </p>
+            </div>
+          </div>
+      </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html> <!--content 4-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thuysan1</title>
+  <div class="text-center">
+    <img src="img/header.jpg" class="img-fluid " alt="mdo">
+    <div class="col-md-4">
+      <div class="card-body">
+        <h5 class="card-title">BÁO NÔNG NGHIỆP</h5>
+      </div>
+    </div>
+  </div>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ENEWS</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body>
+  <header class="p-3 mb-3 border-bottom">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="index.html" class="nav-link px-2 link-secondary">Trang chủ</a></li>
+          <li><a href="#" class="nav-link px-2 link-dark">Inventory</a></li>
+          <li><a href="#" class="nav-link px-2 link-dark">Customers</a></li>
+          <li><a href="#" class="nav-link px-2 link-dark">Products</a></li>
+        </ul>
+
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+
+        <div class="dropdown text-end">
+          <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-person-circle"></i>
+          </a>
+          <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+            <li><a class="dropdown-item" href="login.html">Sign in</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="signin.html">registration</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container-fluid mt-3">
+    <div class="row">
+      <div class="col-3">
+        <div class="card shadow">
+          <h4 class="card-header">
+            Categories
+          </h4>
+          <div class="list-group list-group-flush">
+            <a href="nongsan.html" class="list-group-item list-group-item-action " aria-current="true">
+              Nông sản
+            </a>
+            <a href="thuysan.html" class="list-group-item list-group-item-action active">
+              Thuỷ sản
+            </a>
+            <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">A
+              disabled link
+              item</a>
+          </div>
+        </div>
+        <div class="card mt-3 shadow">
+          <h4 class="card-header">
+            Tag
+           </h4>
+          <div class="list-group list-group-flush">
+            <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+              Trái cây
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">Rau củ</a>
+            <a href="#" class="list-group-item list-group-item-action">Chăn nuôi</a>
+            <a href="#" class="list-group-item list-group-item-action">Đánh bắt</a>
+            <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">A
+              disabled link
+              item</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+          <div class="card mb-3" style="max-width: 560px;">
+            <div class="card-body">
+              <h5 class="fs-1 card-title">
+                Các tỉnh ven biển cần xử lý nghiêm tàu cá khai thác hải sản trái phép
+              </h5>
+              <p class="fs-6 fw-light card-text">
+                <small class="text-muted">
+                  09/06/2021
+                </small>
+              </p>
+              <p class="fw-bold card-text">
+                Bộ Nông nghiệp và PTNT đề nghị các tỉnh xử lý nghiêm các tổ chức, cá nhân để tàu cá vi phạm vùng biển nước ngoài khai thác hải sản trái phép
+              </p>
+              <p class="card-text">
+                Trong các tháng đầu năm 2021, tàu cá và ngư dân Việt Nam vi phạm vùng biển nước ngoài còn diễn biến phức tạp làm ảnh hướng đến hình ảnh, uy tín của Việt Nam, đặc biệt là nỗ lực gỡ Thẻ vàng của Ủy ban Châu Âu (EC) đối với hoạt động khai thác hải sản của Việt Nam sẽ gặp nhiều khó khăn và có nguy cơ nâng cảnh báo "Thẻ đỏ". Tính đến ngày 25 tháng 5 năm 2021, đã xảy ra 32 vụ/56 tàu/446 ngư dân bị nước ngoài bắt giữ, xử lý, chủ yếu là ngư dân của các tỉnh Kiên Giang, Bà Rịa Vũng Tàu, Bình Định, Cà Mau, Bạc Liêu, Quảng Nam, Sóc Trăng. Ủy ban Châu Âu đánh giá đây là vấn đề rất nghiêm trọng.
+              </p>
+            </div>
+            <img src="img/mostview4.jpg" class="card-img-bottom" alt="mdo">
+            <div class="card-body">
+              <p class="card-text">
+                Trước tình hình đó, Bộ Nông nghiệp và PTNT đã có công văn đề nghị các tỉnh, thành phố ven biển quan tâm, chỉ đạo xử lý nghiêm các tổ chức, cá nhân để tàu cá vi phạm vùng biển nước ngoài khai thác hải sản trái phép.Xử lý nghiêm tổ chức, cá nhân để tàu cá vi phạm vùng biển nước ngoài theo quy định tại Điều 20 của Nghị định số 42/2019/NĐ-CP của Chính phủ quy định về xử phạt vi phạm hành chính trong lĩnh vực thủy sản và báo cáo kết quả về Bộ Nông nghiệp và Phát triển nông thôn để báo cáo Thủ tướng Chính phủ và Trưởng Ban chỉ đạo quốc gia về chống khai thác hải sản bất hợp pháp, không báo cáo và không theo quy định (IUU).Bên cạnh đó, hoàn thành việc lắp đặt thiết bị VMS trên tàu cá đối với tàu cá thuộc diện bắt buộc phải lắp thiết bị giám sát hành trình theo quy định của Nghị định 26/2019/NĐ-CP ngày 08/3/2019 của Chính phủ. Kiên quyết xử lý nghiêm các trường hợp không trang bị, không duy trì hoạt động hoặc vô hiệu hóa hoặc tháo thiết bị giám sát hành trình trong quá trình hoạt động trên biển, không thực hiện quy định kẹp chì, giả mạo đối với thiết bị được lắp đặt; xử lý nghiêm đối với nhà cung cấp thiết bị giám sát hành trình cho ngư dân không đảm bảo yêu cầu kỹ thuật theo quy định tại Nghị định số 42/2019/NĐ-CP ngày 16/5/2019. Xây dựng, ban hành quy trình nội bộ về thanh tra, kiểm tra, kiểm soát và xử lý tàu cá có dấu hiệu vi phạm pháp luật thông qua thiết bị giám sát hành trình VMS; tổ chức trực 24/7 theo dõi giám sát hành trình, kịp thời phát hiện, cảnh báo, ngăn chặn, xử lý đối với các tàu cá khai thác thủy sản trái phép trên vùng biển nước ngoài. Rà soát, đánh giá kết quả hoạt động của Văn phòng Thanh tra, Kiểm soát nghề cá.
+              </p>
+            </div>
+            <img src="img/thuysanwriter4.jpg" class="card-img-bottom" alt="mdo">
+            <div class="card-body">
+                <p class="card-tex">
+                    Trên cơ sở đánh giá, có giải pháp bổ sung biên chế công chức, viên chức, cơ sở vật chất, trang thiết bị, kinh phí để nâng cao năng lực thực thi nhiệm vụ giám sát hoạt động nghề cá tại cảng cá, thanh tra, kiểm tra, kiểm soát hoạt động khai thác hải sản theo chuỗi và phục vụ cho công tác truy xuất nguồn gốc theo quy định.Tiếp tục rà soát, đánh giá việc thực hiện Quy chế phối hợp giữa các cơ quan đơn vị (Sở, ngành) và các địa phương với các lực lượng chức năng thực thi pháp luật trên biển, xây dựng hoặc sửa đổi Quy chế để đảm bảo thống nhất, phân công rõ nhiệm vụ, trách nhiệm trong phối hợp xử lý tàu cá vi phạm, ngăn chặn, chấm dứt tình trạng tàu cá vi phạm vùng biển nước ngoài. Đồng thời, rà soát, kiện toàn Ban chỉ đạo về chống khai thác IUU của tỉnh để hoạt động hiệu quả hơn. Bên cạnh đó, tiếp tục tăng cường công tác tuyên truyền, phổ biến, các quy định về chống khai thác hải sản trái phép (IUU) cho chủ tàu cá, thuyền trưởng và ngư dân tại địa phương; đặc biệt là chủ tàu có tàu cá vi phạm và có nguy cơ cao vi phạm khai thác hải sản trái phép ở vùng biển nước ngoài.
+                </p>
+            </div>
+          </div>
+      </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html> <!--content 5-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thuysan1</title>
+  <div class="text-center">
+    <img src="img/header.jpg" class="img-fluid " alt="mdo">
+    <div class="col-md-4">
+      <div class="card-body">
+        <h5 class="card-title">BÁO NÔNG NGHIỆP</h5>
+      </div>
+    </div>
+  </div>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ENEWS</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body>
+  <header class="p-3 mb-3 border-bottom">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="index.html" class="nav-link px-2 link-secondary">Trang chủ</a></li>
+          <li><a href="#" class="nav-link px-2 link-dark">Inventory</a></li>
+          <li><a href="#" class="nav-link px-2 link-dark">Customers</a></li>
+          <li><a href="#" class="nav-link px-2 link-dark">Products</a></li>
+        </ul>
+
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+
+        <div class="dropdown text-end">
+          <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-person-circle"></i>
+          </a>
+          <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+            <li><a class="dropdown-item" href="login.html">Sign in</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="signin.html">registration</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container-fluid mt-3">
+    <div class="row">
+      <div class="col-3">
+        <div class="card shadow">
+          <h4 class="card-header">
+            Categories
+          </h4>
+          <div class="list-group list-group-flush">
+            <a href="nongsan.html" class="list-group-item list-group-item-action " aria-current="true">
+              Nông sản
+            </a>
+            <a href="thuysan.html" class="list-group-item list-group-item-action active">
+              Thuỷ sản
+            </a>
+            <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">A
+              disabled link
+              item</a>
+          </div>
+        </div>
+        <div class="card mt-3 shadow">
+          <h4 class="card-header">
+            Tag
+           </h4>
+          <div class="list-group list-group-flush">
+            <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+              Trái cây
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">Rau củ</a>
+            <a href="#" class="list-group-item list-group-item-action">Chăn nuôi</a>
+            <a href="#" class="list-group-item list-group-item-action">Đánh bắt</a>
+            <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">A
+              disabled link
+              item</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+          <div class="card mb-3" style="max-width: 560px;">
+            <div class="card-body">
+              <h5 class="fs-1 card-title">
+                Robot bóc vỏ, lặt đầu tôm hùm đất công suất 1.000 con/phút
+              </h5>
+              <p class="fs-6 fw-light card-text">
+                <small class="text-muted">
+                  06/06/2021
+                </small>
+              </p>
+              <p class="fw-bold card-text">
+                Chiếc máy do hãng Kofon Motion phát triển, ứng dụng trí tuệ nhân tạo có thể bóc vỏ, loại bỏ đầu của khoảng 1.000 con tôm hùm đất/phút, bằng từ 40- 50 công nhân.
+              </p>
+              <p class="card-text">
+                Thành tựu này do nhóm chuyên gia do ông Meng Tao của tập đoàn Kofon Motion, doanh nghiệp chế tạo máy có trụ sở tại Hoàng Cương, tỉnh Hồ Bắc nghiên cứu, phát triển. Ông Meng được biết đến là chuyên gia hàng đầu về nghiên cứu và chế tạo hộp số và các máy công cụ công nghiệp có độ chính xác cao tại Trung Quốc.
+              </p>
+            </div>
+            <img src="img/mostview5.jpg" class="card-img-bottom" alt="mdo">
+            <div class="card-body">
+              <p class="card-text">
+                Cách nay ba năm, ông Meng tình cờ phát hiện làn sóng cuồng ăn tôm hùm đất trên khắp đất nước nhưng hầu như mọi thực khách đều rất ngại “nhúng tay” vào việc bóc vỏ tôm khi dùng bữa. Vậy là ý tưởng phát triển chiếc máy bóc vỏ, loại bỏ phần đầu tôm bắt đầu thành hình.Với sự hỗ trợ của trí thông minh nhân tạo (AI), chiếc máy do hãng Kofon Motion nghiên cứu- phát triển hiện tại có thể gửi thông tin chính xác về hình dáng, góc độ và vị trí của con tôm đến robot và sau đó tự động làm nhiệm vụ bóc vỏ, loại bỏ phần đầu xương xẩu. Công suất hàng ngày của máy tương đương từ 40 đến 50 công nhân.Đại diện hãng Kofon Motion cho biết, công ty đang ở giai đoạn cuối cùng của thử nghiệm chiếc máy bóc vỏ, bỏ đầu tôm hùm đất ứng dụng AI này. Dự kiến, chiếc máy đầu tiên sẽ chính thức ra mắt và đưa vào sử dụng trong vài tháng tới.
+              </p>
+            </div>
+            <img src="img/thuysanwriter5.jpg" class="card-img-bottom" alt="mdo">
+            <div class="card-body">
+                <p class="card-tex">
+                  Theo Bộ Nông nghiệp và Nông thôn Trung Quốc, Hồ Bắc hiện là nguồn cung cấp khoảng 50% sản lượng tôm hùm đất trên toàn quốc. Tỉnh Hồ Bắc hiện có tới gần 4.000 cơ sở chế biến tôm hùm đất, chiếm 23,3% công suất trên cả nước và ngành chế biến tôm đã trở thành một ngành công nghiệp trụ cột của địa phương.
+                  "Hầu hết các loại tôm hùm đất rao bán trên mạng và tại các siêu thị đều còn nguyên con. Thực khách Trung Quốc thì luôn thích chúng được bóc sạch vỏ sẵn mỗi khi ăn. Tuy nhiên, hiện nay thật khó cho nhiều nhà chế biến tôm hùm đất khi phải đi thuê nhân viên để bóc vỏ, lặt đầu tôm hùm đất theo cách thủ công ", ông Meng Tao cho biết.
+                  Một doanh nghiệp chế biến tôm ở Hồ Bắc cho biết, họ cần hàng nghìn lao động thủ công để chế biến tôm hùm đất mỗi năm. Công đoạn này thường phải qua một doanh nghiệp trung gian tuyển dụng khác nhưng thường thì cũng rất khó thuê nhân công.
+                  Hầu hết lực lượng này là phụ nữ ở độ tuổi 50 và mỗi ngày công họ phải chế biến khoảng 120 kg tôm hùm đất. Mức lương hàng tháng của một lao động hiện khoảng dưới 10.000 nhân dân tệ (1.560 USD).
+                </p>
+            </div>
+            <img src="img/thuysanwriter5(1).jpg" class="card-img-bottom" alt="mdo">
+            <div class="card-body">
+              <p class="card-text">
+                Ông Meng cho biết: "Do tôm hùm đất có sự khác nhau về kích cỡ giữa các ao đìa, khu vực, trong khi chiếc máy của chúng tôi lại hoạt động dựa trên trí thông minh nhân tạo, nên nó cần phải ‘thăm dò, tìm hiểu’ để hoàn thành công việc và hiện công đoạn phân loại kích cỡ tôm cho máy, chúng tôi vẫn đang tiếp tục tinh chỉnh".
+                Cho đến thời điểm này, công ty đã nhận được rất nhiều đơn đặt hàng từ các nhà chế biến tôm hùm đất nhưng vẫn chưa ký thỏa thuận chính thức nào. Tuy nhiên phía công ty Kofon Motion cho biết, họ dự kiến ​​sẽ sản xuất hàng loạt chiếc máy này ngay trong năm nay.
+                Trong hai tuần đầu tháng 5, chi nhánh vận chuyển hàng hóa của China Southern Airlines đã vận chuyển tổng cộng gần 100 tấn tôm hùm đất từ các tỉnh Hồ Bắc và Hồ Nam đi các tỉnh thành trên toàn quốc tiêu thụ, với khối lượng vận chuyển tăng hơn 80% so với cùng kỳ năm ngoái.
+              </p>
+              <p class="text-dark bg-info">
+                Luo Xiang, nhà phân tích từ Viện nghiên cứu LeadLeo, cho biết: "Về lâu dài, các nhà máy chế biến có thể sử dụng robot tự động bóc vỏ, lặt đầu tôm hùm đất để đạt được lợi nhuận cao hơn. Với tốc độ công nghiệp hóa và tự động hóa nhanh như hiện nay thì dự báo nhu cầu các loại máy móc bóc tách vỏ tôm, hạt nguyên liệu sẽ còn tiếp tục tăng trưởng”.
+              </p>
+            </div>
+          </div>
+      </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html> <!--content 6-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thuysan1</title>
+  <div class="text-center">
+    <img src="img/header.jpg" class="img-fluid " alt="mdo">
+    <div class="col-md-4">
+      <div class="card-body">
+        <h5 class="card-title">BÁO NÔNG NGHIỆP</h5>
+      </div>
+    </div>
+  </div>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ENEWS</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body>
+  <header class="p-3 mb-3 border-bottom">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="index.html" class="nav-link px-2 link-secondary">Trang chủ</a></li>
+          <li><a href="#" class="nav-link px-2 link-dark">Inventory</a></li>
+          <li><a href="#" class="nav-link px-2 link-dark">Customers</a></li>
+          <li><a href="#" class="nav-link px-2 link-dark">Products</a></li>
+        </ul>
+
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+
+        <div class="dropdown text-end">
+          <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-person-circle"></i>
+          </a>
+          <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+            <li><a class="dropdown-item" href="login.html">Sign in</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="signin.html">registration</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container-fluid mt-3">
+    <div class="row">
+      <div class="col-3">
+        <div class="card shadow">
+          <h4 class="card-header">
+            Categories
+          </h4>
+          <div class="list-group list-group-flush">
+            <a href="nongsan.html" class="list-group-item list-group-item-action " aria-current="true">
+              Nông sản
+            </a>
+            <a href="thuysan.html" class="list-group-item list-group-item-action active">
+              Thuỷ sản
+            </a>
+            <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">A
+              disabled link
+              item</a>
+          </div>
+        </div>
+        <div class="card mt-3 shadow">
+          <h4 class="card-header">
+            Tag
+           </h4>
+          <div class="list-group list-group-flush">
+            <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+              Trái cây
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">Rau củ</a>
+            <a href="#" class="list-group-item list-group-item-action">Chăn nuôi</a>
+            <a href="#" class="list-group-item list-group-item-action">Đánh bắt</a>
+            <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">A
+              disabled link
+              item</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+          <div class="card mb-3" style="max-width: 560px;">
+            <div class="card-body">
+              <h5 class="fs-1 card-title">
+                Phòng chống dịch bệnh nguy hiểm trên thủy sản
+              </h5>
+              <p class="fs-6 fw-light card-text">
+                <small class="text-muted">
+                  31/05/2021
+                </small>
+              </p>
+              <p class="fw-bold card-text">
+                Tỉnh Bình Thuận vừa ban hành kế hoạch phòng bệnh, khống chế và kiểm soát có hiệu quả một số dịch bệnh nguy hiểm trên thủy sản nuôi trồng giai đoạn 2021 – 2030.
+              </p>
+              <p class="card-text">
+                Trong các tháng đầu năm 2021, tàu cá và ngư dân Việt Nam vi phạm vùng biển nước ngoài còn diễn biến phức tạp làm ảnh hướng đến hình ảnh, uy tín của Việt Nam, đặc biệt là nỗ lực gỡ Thẻ vàng của Ủy ban Châu Âu (EC) đối với hoạt động khai thác hải sản của Việt Nam sẽ gặp nhiều khó khăn và có nguy cơ nâng cảnh báo "Thẻ đỏ". Tính đến ngày 25 tháng 5 năm 2021, đã xảy ra 32 vụ/56 tàu/446 ngư dân bị nước ngoài bắt giữ, xử lý, chủ yếu là ngư dân của các tỉnh Kiên Giang, Bà Rịa Vũng Tàu, Bình Định, Cà Mau, Bạc Liêu, Quảng Nam, Sóc Trăng. Ủy ban Châu Âu đánh giá đây là vấn đề rất nghiêm trọng.
+              </p>
+            </div>
+            <img src="img/mostview6.jpg" class="card-img-bottom" alt="mdo">
+            <div class="card-body">
+              <p class="card-text">
+                Theo đó, UBND tỉnh Bình Thuận giao Sở NN-PTNT hằng năm, căn cứ các nội dung của kế hoạch quốc gia, kế hoạch phòng chống dịch bệnh động vật thủy sản của Bộ NN-PTNT và các nội dung của kế hoạch này, chỉ đạo cơ quan chuyên môn, cũng như phối hợp với các sở, ngành có liên quan và UBND các huyện, thị xã, thành phố tập trung các nguồn lực để chủ động phòng bệnh, giám sát nhằm phát hiện kịp thời, ngăn chặn và khống chế có hiệu quả các bệnh nguy hiểm trên thủy sản nuôi. Xây dựng thành công các cơ sở, chuỗi sản xuất thủy sản an toàn dịch bệnh tại tỉnh để phục vụ tiêu dùng trong nước và đẩy mạnh xuất khẩu thủy sản.
+                Theo UBND tỉnh Bình Thuận, mục tiêu cụ thể của kế hoạch trên nhằm chủ động phòng, khống chế các bệnh nguy hiểm ở tôm nuôi nước lợ, bảo đảm diện tích bị bệnh thấp hơn 10% tổng diện tích nuôi. Chủ động phòng bệnh, khống chế một số bệnh nguy hiểm ở tôm hùm, bảo đảm số tôm hùm nuôi bị bệnh thấp hơn 15% tổng diện tích nuôi. Bên cạnh đó, chủ động phòng bệnh, chủ động giám sát phát hiện và khống chế kịp thời một số bệnh nguy hiểm trên đối tượng thủy sản nuôi khác, không để mầm bệnh lây lan rộng.Cũng như ngăn chặn có hiệu quả một số tác nhân gây bệnh nguy hiểm, nguy cơ xâm nhiễm vào Việt Nam các bệnh mới nổi.  Đồng thời xây dựng được một số cơ sở, chuỗi sản xuất thủy sản an toàn dịch bệnh, trước hết là các doanh nghiệp sản xuất tôm giống, nuôi tôm thương phẩm có quy mô lớn đối với một số bệnh nguy hiểm theo quy định của Tổ chức Thú y thế giới (OIE) và quy định của Bộ NN-PTNT để phục vụ tiêu dùng trong nước và đẩy mạnh xuất khẩu tôm.Cũng như ngăn chặn có hiệu quả một số tác nhân gây bệnh nguy hiểm, nguy cơ xâm nhiễm vào Việt Nam các bệnh mới nổi.  Đồng thời xây dựng được một số cơ sở, chuỗi sản xuất thủy sản an toàn dịch bệnh, trước hết là các doanh nghiệp sản xuất tôm giống, nuôi tôm thương phẩm có quy mô lớn đối với một số bệnh nguy hiểm theo quy định của Tổ chức Thú y thế giới (OIE) và quy định của Bộ NN-PTNT để phục vụ tiêu dùng trong nước và đẩy mạnh xuất khẩu tôm.Để thực hiện nội dung và giải pháp trên phải tập trung, huy động các nguồn lực để chủ động phòng bệnh, chủ động giám sát, phát hiện kịp thời, ngăn chặn và khống chế có hiệu quả các bệnh nguy hiểm trên thủy sản nuôi được ưu tiên kiểm soát của kế hoạch này.Áp dụng các quy trình kỹ thuật phòng, chống dịch bệnh. Cụ thể tuân thủ các quy định về điều kiện cơ sở nuôi, xử lý nước thải, chất thải theo quy định, mùa vụ thả giống, chất lượng con giống được kiểm dịch theo quy định, áp dụng quy trình kỹ thuật nuôi, quản lý chăm sóc ao nuôi (VietGAP, GlobalGAP,...); áp dụng các biện pháp hỗ trợ nâng cao sức đề kháng cho thủy sản nhằm giảm thiểu nguy cơ mắc bệnh.
+              </p>
+            </div>
+            <img src="img/thuysanwriter6.jpg" class="card-img-bottom" alt="mdo">
+            <div class="card-body">
+                <p class="card-tex">
+                    Áp dụng các biện pháp phòng bệnh, chống dịch, xử lý ổ dịch theo hướng dẫn của cơ quan chuyên ngành thú y; định kỳ kiểm tra ao, hồ, lồng, bè nuôi thủy sản, xử lý động vật trung gian truyền bệnh; thu mẫu gửi xét nghiệm trong trường hợp nghi ngờ có dịch bệnh phát sinh; xử lý động vật thủy sản nghi mắc bệnh, mắc bệnh, chết; vệ sinh, tiêu độc, khử trùng và áp dụng các biện pháp xử lý ao hồ, lồng, bè nuôi thủy sản, môi trường nước, thức ăn, phương tiện, dụng cụ sử dụng trong quá trình nuôi...
+                    Xem xét, sử dụng vắc xin để chủ động phòng bệnh cho động vật thủy sản để giảm thiểu việc sử dụng kháng sinh, ngăn ngừa kháng thuốc trong nuôi trồng thủy sản.
+                    Thường xuyên kiểm tra cơ sở nuôi thủy sản; trường hợp phát hiện động vật thủy sản có dấu hiệu bất thường, nghi mắc bệnh, tổ chức lấy mẫu, xét nghiệm xác định tác nhân gây bệnh và các thông số quan trắc môi trường. Tổ chức điều tra dịch tễ và hướng dẫn người nuôi áp dụng các biện pháp xử lý tổng hợp theo quy định, không để dịch bệnh lây lan rộng.
+                    Tổ chức giám sát chủ động tại các cơ sở, vùng sản xuất giống, cơ sở nuôi thương phẩm; xây dựng và thực hiện kế hoạch lấy mẫu, tổ chức xét nghiệm tác nhân gây bệnh nguy hiểm trên thủy sản. Tổ chức điều tra dịch tễ và hướng dẫn các biện pháp xử lý nhằm loại bỏ tác nhân gây bệnh trong trường hợp mẫu xét nghiệm có kết quả dương tính với tác nhân gây bệnh nguy hiểm…
+                    Kiểm soát, ngăn chặn, kịp thời phát hiện, xử lý nghiêm các trường hợp vận chuyển, buôn bán bất hợp pháp động vật thủy sản và sản phẩm động vật thủy sản lưu hành trong nước và từ nước ngoài vào Việt Nam…   
+                </p>
+            </div>
+          </div>
+      </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
