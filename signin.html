@@ -1,0 +1,569 @@
+
+<!DOCTYPE html>
+<!--[if lte IE 7]><html class="ie7"> <![endif]-->
+<!--[if !IE]><!--><html xmlns="http://www.w3.org/1999/xhtml"><!--<![endif]-->
+
+    <head>
+        <!--<script type="text/javascript" src="https://getfirebug.com/releases/lite/1.3/firebug-lite.js"></script>-->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Light box VNE</title>
+        <script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-50285069-6']);
+            _gaq.push(['_trackPageview']);
+			_gaq.push(['b._setAccount', 'UA-249346-42']);
+			_gaq.push(['b._trackPageview']);
+			(function() {
+		   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			//ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		</script>
+        <!-- Google Tag Manager -->
+        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-N3FNJF"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-N3FNJF');</script>
+        <!-- End Google Tag Manager -->
+                                    <link rel="stylesheet" href="https://s1.vnecdn.net/myvne/c/v1/my_lightbox.css" type="text/css" />
+                <link rel="stylesheet" href="https://s1.vnecdn.net/myvne/c/v1/ls/myvne_2019.css" media="all" />
+                    
+        <script src="https://s1.vnecdn.net/myvne/j/v5/lib/jquery-1.7.1.min.js"></script>
+        <!-- <script src="https://streview.vnecdn.net/vnexpress/js/redesign/helper/jquery.magnific-popup.js" type="text/javascript"></script> -->
+        <script src="https://s1.vnecdn.net/myvne/j/v5/common.js"></script>
+		<!-- TRACKING ECLICK -->
+		<meta name="tt_article_id" content="1000000" />
+		<meta name="tt_category_id" content="1000000" />
+            </head>
+    <body>
+        <script>
+function bindEvent(element, eventName, eventHandler) {
+    if (element.addEventListener) {
+        element.addEventListener(eventName, eventHandler, false);
+    } else if (element.attachEvent) {
+        element.attachEvent('on' + eventName, eventHandler);
+    }
+}
+bindEvent(window, 'message', function (e) {
+    if(e.origin.indexOf('kidlab.vnexpress.net') > -1)
+    {
+        $('.box_left .tit_box').html('<p>Tạo tài khoản VnExpress</p><p>Sử dụng cho tất cả dịch vụ của VnExpress</p><p>Cùng hơn 4 triệu thành viên</p>');
+    }
+});
+
+</script>
+<form id="myvne_register" method="post">
+    <input type="hidden" name="csrf" value="9fcfc9c2ea7d79185f1d8e7f801a635b" />
+    <div id="popup-login-sys" class="white-popup-myvne popup-log">
+        <!--Content Resgister-->
+        <div class="title_popup_myvne width_common flex">
+            <a href="/authen/users/login?host=https%3A%2F%2Fvnexpress.net&return=https%3A%2F%2Fvnexpress.net%2F" class="tab_log tab_login">Đăng nhập</a>
+            <a href="javascript:;" class="tab_log tab_res active">Tạo tài khoản</a>
+        </div>
+        <div class="content_poup_myvne width_common content_log">
+            <div class="width_common block_log">
+                <div class="inner_block_log width_common flex">
+                    <div class="box_log box_left">
+                        <div class="width_common tit_box tit_res">
+                            <p>Tạo tài khoản VnExpress</p>
+                            <p>Để sử dụng đầy đủ tính năng đọc báo và tham gia cộng đồng hơn 4 triệu thành viên</p>
+                        </div>
+                        <div class="width_common form_log">
+                                                        <div class="item_input_log" id="myvne_email_check">
+                                <input type="text" id="myvne_email_input" name="myvne_email" class="input_form has_transition" placeholder="Nhập email" autocomplete="new-password"/>
+                            </div>
+                            <div class="item_input_log" id="myvne_password_check">
+                                <input type="password"  class="input_form has_transition input_pass" name="myvne_password" id="myvne_password_input"  placeholder="Tạo mật khẩu" autocomplete="new-password"/>
+                                <span class="icon_eye_show_null icon_input ">
+                                    <svg class="icon eye-show"><use xlink:href="#eye-show" style="fill: #828282"></use></svg>
+                                </span>
+                                <span class="icon_eye_show icon_input" style="display: none;" onclick="show_password()">
+                                    hiện <svg class="icon eye-show"><use xlink:href="#eye-show"></use></svg>
+                                </span>
+                                <span class="icon_eye_hide icon_input" style="display: none;"  onclick="show_password()">
+                                    ẩn <svg class="icon eye-hide"><use xlink:href="#eye-hide"></use></svg>
+                                </span>
+                            </div>
+                            <input type="hidden" name="recaptcha" value="">
+
+                            <div class="item_input_log item_button_act">
+                            <button type="button" id="myvne_button_register" class="pri_button btn_log btn_disable has_transition">Tạo tài khoản</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box_log box_right">
+                        <div class="width_common tit_box tit_res"><p>Tạo tài khoản với</p></div>
+                        <div class="width_common form_log">
+                                                            <div class="item_input_log">
+                                    <a href="javascript:void(0);" id="myvne_facebook_login" class="social_log face_log">
+                                        <span><img src="https://s1.vnecdn.net/myvne/i/v1/ls/icons/facebook_ico.svg" alt="">Facebook</span>
+                                    </a>
+									<span id="myvne_message_error" class="width_common mess_error" ></span>
+                                </div>
+                                <div class="item_input_log">
+                                    <a href="javascript:void(0);" id="myvne_google_login" class="social_log google_log">
+                                        <span><img src="https://s1.vnecdn.net/myvne/i/v1/ls/icons/google_ico.svg" alt="">Google</span>
+                                    </a>
+                                </div>
+                                                                <div class="item_input_log">
+                                    <a href="javascript:void(0);" id="myvne_apple_login" class="social_log app_log">
+                                        <span><img src="https://s1.vnecdn.net/myvne/i/v1/ls/icons/app_ico.svg" alt="">Apple</span>
+                                    </a>
+                                </div>
+                                                                                    </div>
+                    </div>
+                </div>
+                <!-- <p class="width_common note_pass note_qd mt25">Khi bấm tạo tài khoản bạn đã đồng ý với <a href="/authen/users/rule">quy định</a> của tòa soạn</p> -->
+                <p class="width_common note_pass note_qd mt25">Khi bấm tạo tài khoản bạn đã đồng ý với <a href="#" class="rule">quy định</a> của tòa soạn</p>
+            </div>
+        </div>
+        <!--End Content Resgister-->
+    </div>
+</form>
+
+<script src="https://www.google.com/recaptcha/api.js?render=6LdsCA8bAAAAAChYa4MI5R8VGGvBtMWvWqeoNVOW"></script>
+<script>
+	
+    function listener_postmessage() {
+        var Listener = function (e) {
+            switch(e.data.error){
+                case 1:
+                    var out = jQuery.stringify(e.data);
+                    break;
+                default:
+                    var out = jQuery.stringify({'success' : 1, 'callback' : 'login','profile' : e.data,'adp' : {
+                    "action"      : e.data.oauth_type,
+                    "regis_on"    : location.origin,
+                    "my_vne"      : e.data.user_id,//id my vne
+                    "vne_avatar"  : e.data.user_avatar,//URL link avatar
+                    "vne_email"   : e.data.user_email,//email đăng ký
+                    "vne_phone"   : e.data.mobile || '',//Số điện thoại
+                    "vne_name"    : e.data.user_fullname || '',//Full Name đăng ký
+                    "vne_gender"  : e.data.sex || 0,//1: Nam, 2: Nữ
+                    "vne_age"     : e.data.age || '',//Số tuổi
+                    "vne_birthday": e.data.date_of_birth || '',//YYYY-MM-DD
+                    "vne_city"    : e.data.city || '',//Thành phố
+                    "vne_dist"    : e.data.district || '',//Quận huyện
+                    "vne_address" : e.data.address|| ''//Địa chỉ nhà ở
+                }});
+                    break;
+            }
+            if(view_app == 1){
+                connectWebViewJavascriptBridge(function(bridge) {
+                    /* Init your app here */
+                    bridge.init(function(message, responseCallback) {
+                        if (responseCallback) {
+                            responseCallback("Right back atcha")
+                        }
+                    })
+                    bridge.send(out);
+                });
+            } else {
+                parent.postMessage(out, "*");
+            }
+        };
+
+        if (window.addEventListener){
+            window.addEventListener('message', Listener, false);
+        } else if (window.attachEvent){ // fix for IE
+            window.attachEvent('onmessage', Listener);
+        }
+    }
+
+    function removeSession() {
+        sessionStorage.removeItem('email');
+        sessionStorage.removeItem('password');
+    }
+    function setSession() {
+        var email = sessionStorage.getItem('email');
+        var password = sessionStorage.getItem('password');
+        if(typeof(email) != 'undefined' && email)
+        {
+            // $('#myvne_email_input').val(email);
+            $('#myvne_email_input').val("");
+        }
+        if(typeof(password) != 'undefined' && password)
+        {
+            $('#myvne_password_input').val(password);
+        }
+
+        if (myvne_common.form_validatation(email,['require','email'],'email') == true && myvne_common.form_validatation(password,['require','password'],'mật khẩu') == true) {
+            $("button#myvne_button_register").removeClass('btn_disable').attr('disabled', false);
+        }
+    }
+    function checkEmail() {
+        var validemail = myvne_common.form_validatation($("input[name=myvne_email]").val(),['require','email'],'email');
+        if (validemail != true) {
+            $("#myvne_email_check").append('<span class="width_common mess_error">' + validemail +'</span>');
+            return false;
+        }
+        return true;
+    }
+
+    function checkPassword() {
+        var validpassword = myvne_common.form_validatation($("input[name=myvne_password]").val(),['require','password'],'mật khẩu');
+        if (validpassword != true) {
+            $("#myvne_password_check").append('<span class="width_common mess_error">' + validpassword +'</span>');
+            return false;
+        }
+        return true;
+    }
+    function enableEye() {
+        if($("input[name=myvne_password]").val() != ""){
+            $('.icon_eye_show_null').hide();
+            var x = document.getElementById("myvne_password_input");
+            if(x.type === "password"){
+                $('.icon_eye_show').show();
+            }else{
+                $('.icon_eye_hide').show();
+            }
+        }else{
+            $('.icon_eye_show_null').show();
+            $('.icon_eye_show').hide();
+            $('.icon_eye_hide').hide();
+        }
+    }
+    function show_password() {
+        var x = document.getElementById("myvne_password_input");
+        if (x.type === "password") {
+            $('.icon_eye_show').hide();
+            $('.icon_eye_hide').show();
+            x.type = "text";
+        } else {
+            $('.icon_eye_show').show();
+            $('.icon_eye_hide').hide();
+            x.type = "password";
+        }
+    }
+
+    if (window.addEventListener) {
+        window.addEventListener("message", removeSession, false);
+    }
+    else {
+        window.attachEvent("onmessage", removeSession);
+    }
+
+
+    ////////////////////// LOGIN OPEN ID ///////////////
+    $("#myvne_facebook_login").bind("click",function(){
+        //parent.postMessage("facebook_login", "*");
+        window.open('https://www.facebook.com/dialog/oauth?client_id=2364277420451808&scope=email&redirect_uri=' + encodeURIComponent('https://my.vnexpress.net/openid/facebook'),'FacebookLogin','width=800','height = 570');
+        listener_postmessage();
+    });
+    $("#myvne_google_login").bind("click",function(){
+        window.open('https://accounts.google.com/o/oauth2/auth?client_id=63695605483-uh3lvelqpb59s1tn5qh59ovbcuhfa54v.apps.googleusercontent.com&response_type=code&scope=email&redirect_uri=' + encodeURIComponent('https://my.vnexpress.net/openid/google'),'GoogleLogin','width=800','height = 570');
+        listener_postmessage();
+    });
+    $("#myvne_apple_login").bind("click",function(){
+        window.open('https://appleid.apple.com/auth/authorize?response_type=code&response_mode=form_post&client_id=net.vnexpress.signinapple&redirect_uri=https%3A%2F%2Fmy.vnexpress.net%2Fopenid%2Fapple&state=&scope=name+email','AppleLogin','width=800','height = 570');
+        listener_postmessage();
+    });
+
+    ////////////// ENTER KEY PRESS ////////////
+    $(document).keydown(function (e){
+        if(e.keyCode == 13){
+            $("#myvne_button_register").click();
+            return false;
+        }
+    })
+
+    var view_app = 0;
+    function connectWebViewJavascriptBridge(callback) {
+        if (window.WebViewJavascriptBridge) {
+            callback(WebViewJavascriptBridge)
+        } else {
+            document.addEventListener('WebViewJavascriptBridgeReady', function() {
+                callback(WebViewJavascriptBridge)
+            }, false)
+        }
+    }
+
+    function findGetParameter(parameterName) {
+        var result = null,
+            tmp = [];
+        location.search
+            .substr(1)
+            .split("&")
+            .forEach(function (item) {
+              tmp = item.split("=");
+              if (tmp[0] === parameterName) result = decodeURIComponent(tmp[1]);
+            });
+        return result;
+    }
+
+    $(function() {
+        grecaptcha.ready(function() {
+            $('.grecaptcha-badge').css("display", "none");
+            grecaptcha.execute('6LdsCA8bAAAAAChYa4MI5R8VGGvBtMWvWqeoNVOW', {action: 'homepage'}).then(function(token) {
+                $('input[name="recaptcha"]').val(token);
+            });
+        });
+        setSession();
+
+        var flag_email = ($("input[name=myvne_email]").val().trim() != '') ? checkEmail() : false;
+        var flag_pass = false;
+
+        $("input[name=myvne_email]").bind("keyup change",function(){
+            $("#myvne_register").find(".mess_error").remove();
+            flag_email = checkEmail();
+            if(flag_email == true && flag_pass == true) {
+                $("button#myvne_button_register").removeClass('btn_disable').attr('disabled', false);
+            }else {
+                $("button#myvne_button_register").addClass('btn_disable').attr('disabled', true);
+            }
+        });
+
+        $("input[name=myvne_password]").bind("keyup change",function(){
+            $("#myvne_register").find(".mess_error").remove();
+            flag_pass = checkPassword();
+            if(flag_email == true && flag_pass == true) {
+                $("button#myvne_button_register").removeClass('btn_disable').attr('disabled', false);
+            }else {
+                $("button#myvne_button_register").addClass('btn_disable').attr('disabled', true);
+            }
+            enableEye();
+        });
+
+        $(document).on('click','a.rule',function() {
+            var email = $('#myvne_email_input').val();
+            var password = $('#myvne_password_input').val();
+
+            sessionStorage.setItem('email', email);
+            sessionStorage.setItem('password', password);
+
+            var out = jQuery.stringify({'success': 1,'callback': '_html_popup_rule'});
+            parent.postMessage(out, "*");
+        });
+
+    	
+        $("#myvne_button_register").bind("click",function(){
+            var parentPage = 'https%3A%2F%2Fvnexpress.net';
+        	//get cookie
+        	function getCookie(n) {
+			    var a = `; ${document.cookie}`.match(`;\\s*${n}=([^;]+)`);
+			    return a ? a[1] : '';
+			}
+            var valid = 0;
+            $("#myvne_register").find(".mess_error").remove();
+            var datapost = $("#myvne_register").serialize();
+            var arrQuery = myvne_common.get_form_data(datapost);
+            /// valid email
+            var validemail = myvne_common.form_validatation(arrQuery.myvne_email,['require','email'],'email');
+            if (validemail != true) {
+                $("#myvne_email_check").append('<span class="width_common mess_error">' + validemail +'</span>');
+                $("#myvne_email_input").focus();
+                valid += 1;
+            }
+            /// valid password
+            var validpassword = myvne_common.form_validatation(arrQuery.myvne_password,['require','password'],'mật khẩu');
+            if (validpassword != true) {
+                $("#myvne_password_check").append('<span class="width_common mess_error">' + validpassword +'</span>');
+                if (valid == 0) $("#myvne_password_input").focus();
+                valid += 1;
+            }
+            /// check valid
+            if (valid > 0) {
+                return false;
+            }
+            datapost = datapost + '&view_app=' + view_app;
+
+            //Spining
+            $("button#myvne_button_register").addClass("btn_loading").attr('disabled', true).html('<span class="spinner"></span>');
+            $.ajax({
+                type: 'post',
+                dataType : 'json',
+                url: '/authen/users/register?host=https%3A%2F%2Fvnexpress.net'+'',
+                data: datapost,
+                success: function (data) {
+                    if (data.error == 0) { // thanh cong
+                        console.log("User Sign Up Create Account; user_id = " + data.user_id);
+                        if(typeof data.pl.error !== 'undefined' && data.pl.error == 2)
+                        {
+                           
+                            if(typeof cb !== 'undefined')
+                            {
+                                cb();
+                            }
+                        }
+                        //Push dataLayer
+                        dataLayer.push({
+                            "event": "userEvent",
+                            "user_action": "User Sign Up Create Account",
+                            "user_signup_method": "Email",
+                            "user_id": data.profile.user_id
+                        });
+
+                        if(view_app == 0){
+                            var link_gg = '';
+
+                            if (/@gmail\.com$/.test(arrQuery.myvne_email)) {
+                                var name = arrQuery.myvne_email.substring(0, arrQuery.myvne_email.lastIndexOf("@"));
+                                var _mail = '<a href="https://mail.google.com/mail/u/0/?tab=rm#search/vnexpress" target="_blank"><strong>'+arrQuery.myvne_email+'</strong></a>';
+                                link_gg = '<a href="https://mail.google.com/mail/u/0/?tab=rm#search/vnexpress" target="_blank">' +
+                                    '<span style="width: 13px;height: 13px;display: inline-block;color: #ccc;fill: currentColor;margin-left: 4px;">\n' +
+                                    '<svg id="new-tab" viewBox="0 0 32 32" width="100%" height="100%"><title>new-tab</title><path d="M21.647 3.765c-1.040 0-1.883-0.843-1.883-1.883s0.843-1.882 1.883-1.882h8.471c1.039 0 1.882 0.844 1.882 1.882v8.471c0 1.039-0.843 1.882-1.882 1.882s-1.882-0.843-1.882-1.882v-3.927l-10.905 10.904c-0.735 0.735-1.927 0.735-2.662 0s-0.735-1.927 0-2.662l10.904-10.904h-3.927zM28.235 17.883c0-1.040 0.843-1.882 1.882-1.882s1.882 0.843 1.882 1.882v12.235c0 1.039-0.843 1.882-1.882 1.882h-28.235c-1.039 0-1.882-0.843-1.882-1.882v-28.235c0-1.039 0.843-1.882 1.882-1.882h12.235c1.040 0 1.883 0.843 1.883 1.882s-0.843 1.883-1.883 1.883h-10.352v24.47h24.47v-10.353z"></path></svg>'+
+                                    '</span></a>';
+                            }else{
+                                var _mail = '<a href="javascript:;"><strong>'+arrQuery.myvne_email+'</strong></a>';
+                            }
+
+                            var msg = '<div class="width_common block_log block_log_onlytext">\
+                                            <div class="width_common tit_box">\
+                                                <p>Kiểm tra email </p>\
+                                                <p class="mt5">'+_mail + link_gg +'</p>\
+                                                <p class="mt5">Để xác thực email trên là của bạn</p>\
+                                                <p class="mt5">Hãy nhớ kiểm tra hòm thư rác</p>\
+                                            </div>\
+                                            <div class="width_common tit_box mt40" id="resendemail">\
+                                                <p><a href="javascript:;" class="underline" onclick="myvne_users.resend_mail_register(\''+arrQuery.myvne_email+'\')">Gửi lại email</a></p>\
+                                            </div>\
+                                            <div style="display: none" class="width_common tit_box mt40" id="resendemail_loadding">Đang gửi ...</div>\
+                                        </div>';
+
+                            var out = jQuery.stringify({'success': 1,'callback': 'register','message': msg, 'title': 'Xác thực email','profile': data.profile,'count_notify': data.count_notify, 'url_redirect' : data.url_redirect+'&return='+location.href});
+                            parent.postMessage(out, "*");
+                        } else {
+                            connectWebViewJavascriptBridge(function(bridge) {
+                                /* Init your app here */
+                                bridge.init(function(message, responseCallback) {
+                                    if (responseCallback) {
+                                        responseCallback("Right back atcha")
+                                    }
+                                })
+                                var out = jQuery.stringify({'success': 1,'message': msg});
+                                bridge.send(out);
+                            });
+                        }
+                    }
+                    else if (data.error == 1 || data.error == 2) {
+                        if (data.message.myvne_password) {
+                            $("#myvne_password_check").append('<span class="width_common mess_error">' + data.message.myvne_password +'</span>');
+                            $("#myvne_password_input").focus();
+                        }
+                        if (data.message.myvne_email) {
+                            $("#myvne_email_check").append('<span class="width_common mess_error">' + data.message.myvne_email +'</span>');
+                            $("#myvne_email_input").focus();
+                        }
+                        else if (data.message.myvne_captcha) {
+                            $("#myvne_captcha_check").append('<span class="width_common mess_error">' + data.message.myvne_captcha +'</span>');
+                            $("#myvne_captcha_input").focus();
+                        }
+                        // Get captcha mới
+                        grecaptcha.ready(function() {
+                            grecaptcha.execute('6LdsCA8bAAAAAChYa4MI5R8VGGvBtMWvWqeoNVOW', {action: 'homepage'}).then(function(token) {
+                                $('input[name="recaptcha"]').val(token);
+                            });
+                        });
+                        // Remove spinning
+                        $("button#myvne_button_register").removeClass("btn_loading").attr('disabled', false).html('Tạo tài khoản');
+                    }
+                    else {
+                        alert(data.message);
+                    }
+                },
+                error: function(data,code) {
+                    $("#myvne_email_check").append('<span class="width_common mess_error">' + myvne_common.get_message('system_error') + '</span>');
+                    // Remove spinning
+                    $("button#myvne_button_register").removeClass("btn_loading").attr('disabled', false).html('Tạo tài khoản');
+                }
+            });
+        })
+
+    })
+</script>        <script>
+            ( function( window, document )
+            {
+              var file     = 'https://s1.vnecdn.net/myvne/c/v1/ls/images/graphics/symbol-defs.svg',
+              revision = 2;
+             
+                if( !document.createElementNS || !document.createElementNS( 'http://www.w3.org/2000/svg', 'svg' ).createSVGRect )
+                    return true;
+             
+                var isLocalStorage = 'localStorage' in window && window[ 'localStorage' ] !== null,
+                    request,
+                    data,
+                    insertIT = function()
+                    {
+                        document.body.insertAdjacentHTML( 'afterbegin', data );
+                    },
+                    insert = function()
+                    {
+                        if( document.body ) insertIT();
+                        else document.addEventListener( 'DOMContentLoaded', insertIT );
+                    };
+             
+                if( isLocalStorage && localStorage.getItem( 'inlineSVGrev' ) == revision )
+                {
+                    data = localStorage.getItem( 'inlineSVGdata' );
+                    if( data )
+                    {
+                        insert();
+                        return true;
+                    }
+                }
+             
+                try
+                {
+                    request = new XMLHttpRequest();
+                    request.open( 'GET', file, true );
+                    request.onload = function()
+                    {
+                        if( request.status >= 200 && request.status < 400 )
+                        {
+                            data = request.responseText;
+                            insert();
+                            if( isLocalStorage )
+                            {
+                                localStorage.setItem( 'inlineSVGdata',  data );
+                                localStorage.setItem( 'inlineSVGrev',   revision );
+                            }
+                        }
+                    }
+                    request.send();
+                }
+                catch( e ){}
+             
+            }( window, document ) );
+
+        </script>
+        <script>
+        if(document.cookie.indexOf('_vml=1') > -1)
+        {
+            function insertAfter(el, referenceNode) {
+                referenceNode.parentNode.insertBefore(el, referenceNode.nextSibling);
+            }
+            var newEl = document.createElement('div');
+            newEl.innerHTML = '<div id="google_translate_element"></div>';
+            var ref = document.querySelector('body');
+            insertAfter(newEl, ref);
+
+            var css = '#google_translate_element,.skiptranslate{display:none;}body{top:0!important;}',
+                head = document.head || document.getElementsByTagName('head')[0],
+                style = document.createElement('style');
+            head.appendChild(style);
+            style.type = 'text/css';
+            if (style.styleSheet) {
+                // This is required for IE8 and below.
+                style.styleSheet.cssText = css;
+            } else {
+                style.appendChild(document.createTextNode(css));
+            }
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({pageLanguage: 'vi', includedLanguages: 'en', autoDisplay: false}, 'google_translate_element');
+                setTimeout(function(){
+                    var a = document.querySelector("#google_translate_element select");
+                    a.selectedIndex=1;
+                    a.dispatchEvent(new Event('change'));
+                }, 1000);
+            }
+            var script = document.createElement('script');
+            script.src = '//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+            document.head.appendChild(script);
+        }
+        </script>
+    </body>
+</html>
